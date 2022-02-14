@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="Description" content="Enter your description here" />
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+    </head>
+
+<body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+<link rel="stylesheet" href="task 3.css">
+<title>task-3</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <nav class="navbar navbar-dark bg-dark">
+            <img src="amazon logo 1.png" width="150">
+            <div class="nav">
+                <ul class="navbar-nav ">
+
+
+                    <li><a href="#">Home</a></li>
+
+
+                    <li> <a href="#">Featured</a> </li>
+
+
+
+                    <li><a href="#">Products</a></li>
+
+            </div>
+
+            </ul>
+
+        </nav>
+    </nav>
+    <section id="box-1">
+        <h1>Shoe Company Name</h1>
+
+        <h4> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, repudiandae magni dolorum tempora
+            perferendis quibusdam, exercitationem consequatur necessitatibus eligendi, aspernatur eaque ipsum quos unde
+            ducimus ut saepe rerum? Sint, exercitationem.</h4>
+        <div class="ab">
+            <ul class="dropdowns">
+                <li>
+                    <h3><b> 9 Products</b></h3>
+                </li>
+                <!-- Default dropup button -->
+                <li id="D-1">
+                    <div class="btn-group ">
+                        <button type="button" class="btn btn-secondary">
+                            Filter By
+                        </button>
+                        <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+
+                            <div class="dropdown-menu">
+                                <!-- Dropdown menu links -->
+                                <a class="dropdown-item" href="#" onclick="rating_one()"> 1 Star Rating</a>
+                                <a class="dropdown-item" href="#" onclick="rating_two()"> 2 Star Rating</a>
+                                <a class="dropdown-item" href="#" onclick="rating_three()">3 Star Rating</a>
+                                <a class="dropdown-item" href="#" onclick="rating_four()">4 Star Rating</a>
+                                <a class="dropdown-item" href="#" onclick="rating_five()">5 Star Rating</a>
+                            </div>
+
+                    </div>
+                </li>
+
+                <!-- Split dropup button -->
+                <li id="D-2">
+                    <div class="btn-group ">
+                        <button type="button" class="btn btn-secondary">
+                            Sort By
+                        </button>
+                        <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <div class="dropdown-menu">
+                            <!-- Dropdown menu links -->
+                            <a id="price" class="dropdown-item" href="#" onclick="price_sort()">Price High to Low </a>
+                            <a id="delivery" class="dropdown-item" href="#" onclick="delivery_sort()">Delivery Time</a>
+                            <a id="alphabet" class="dropdown-item" href="#" onclick="alpha_sort()">Name (A to Z)</a>
+
+                        </div>
+                    </div>
+                </li>
+
+
+
+            </ul>
+        </div>
+
+
+
+
+
+        <hr>
+        <table>
+            <div class="container-fluid">
+                <tr>
+                    <td>
+                        <div class="card " style="width: 18rem;">
+
+                            <img class="card-img-top"
+                                src="https://qph.fs.quoracdn.net/main-qimg-8c8821db5226caf827cff6fb88f65b4d-lq"
+                                alt="Card image cap">
+                            <div class="card-body h-100">
+                                <span class="star">
+                                    <h5> <b>WOODLAND </b></h5>
+                                    <img src="star img.png" height="100px">
+                                    <h6><b>4</b></h6>
+                                </span>
+                                <h3><b>₹2000</b></h3>
+                                <p class="card-text">Delivery by: Fri February 18 2022</p>
+                            </div>
+
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="card " style="width: 18rem;">
+
+                            <img class="card-img-top"
+                                src="https://www.renderhub.com/radju/pair-of-sneakers4/pair-of-sneakers4-01.jpg"
+                                alt="Card image cap">
+                            <div class="card-body h-100">
+                                <span class="star">
+                                    <h5> <b>NIKE </b></h5>
+
+                                    <img src="star img.png" height="100px">
+                                    <h6><b>3</b></h6>
+                                </span>
+                                <h3><b>₹2500</b></h3>
+                                <p class="card-text">Delivery by: Thur February 17 2022</p>
+                            </div>
+
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="card " style="width: 18rem ;">
+
+
+                            <img class="card-img-top"
+                                src="https://4.imimg.com/data4/NI/VV/MY-34956700/mens-designer-sports-shoes-500x500.jpg"
+                                alt="Card image cap">
+                            <div class="card-body h-100">
+                                <span class="star">
+                                    <h5> <b>REEBOK </b></h5>
+
+                                    <img src="star img.png" height="100px">
+                                    <h6><b>5</b></h6>
+                                </span>
+                                <h3><b>₹1500</b></h3>
+                                <p class="card-text">Delivery by: Sat February 19 2022</p>
+
+                            </div>
+
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="card" style="width: 18rem;">
+
+                            <img class="card-img-top"
+                                src="https://rukminim1.flixcart.com/image/332/398/jyxaw7k0/shoe/p/m/y/eot69-6-adidas-ftwwht-ftwwht-trablu-original-imafj23tdnhr8fef.jpeg?q=50"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <span class="star">
+                                    <h5> <b>ADIDAS</b></h5>
+                                    <img src="star img.png" height="100px">
+                                    <h6><b>1</b></h6>
+                                </span>
+                                <h3><b>₹4000</b></h3>
+                                <p class="card-text">Delivery by: Fri February 18 2022</p>
+                            </div>
+
+                        </div>
+                    </td>
+                    <td>
+                        <div class="card" style="width: 18rem;">
+
+                            <img class="card-img-top"
+                                src="https://rukminim1.flixcart.com/image/714/857/keuagsw0-0/shoe/i/g/8/373108-8-puma-white-white-black-lapis-blue-original-imafvfhhftnmkfqr.jpeg?q=50"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <span class="star">
+                                    <h5> <b>PUMA</b></h5>
+                                    <img src="star img.png" height="100px">
+                                    <h6><b>2</b></h6>
+                                </span>
+                                <h3><b>₹4500</b></h3>
+                                <p class="card-text">Delivery by: Sun February 20 2022</p>
+                            </div>
+
+                        </div>
+                    </td>
+                    <td>
+                        <div class="card" style="width: 18rem;">
+
+                            <img class="card-img-top"
+                                src="https://4.imimg.com/data4/FW/KV/MY-32469236/sparx-canvas-sneakers-500x500.jpeg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <span class="star">
+                                    <h5> <b>SPARX</b></h5>
+                                    <img src="star img.png" height="100px">
+                                    <h6><b>3</b></h6>
+                                </span>
+                                <h3><b>₹3500</b></h3>
+                                <p class="card-text">Delivery by: Sun February 20 2022</p>
+                            </div>
+
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="card" style="width: 18rem;">
+
+                            <img class="card-img-top" src="https://m.media-amazon.com/images/I/61PBd39XdvL._UL1280_.jpg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <span class="star">
+                                    <h5> <b>ASICS</b></h5>
+                                    <img src="star img.png" height="100px">
+                                    <h6><b>4</b></h6>
+                                </span>
+                                <h3><b>₹2500</b></h3>
+                                <p class="card-text">Delivery by: Wed February 16 2022</p>
+                            </div>
+
+                    </td>
+                    <td>
+                        <div class="card" style="width: 18rem;">
+
+                            <img class="card-img-top"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm9o1B-ZGY-UIcuvCDoSwvrOR1R_YE_WGvNA&usqp=CAU"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <span class="star">
+                                    <h5> <b>SKECHERS</b></h5>
+                                    <img src="star img.png" height="100px">
+                                    <h6><b>5</b></h6>
+                                </span>
+                                <h3><b>₹2500</b></h3>
+                                <p class="card-text">Delivery by: Fri February 18 2022</p>
+                            </div>
+
+                    </td>
+                    <td>
+                        <div class="card" style="width: 18rem;">
+
+                            <img class="card-img-top"
+                                src="https://cdn.ezmall.com/0/images/product/136075/Red_Tape_Grey_Running_Shoes-Set-005.jpg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <span class="star">
+                                    <h5> <b>RED TAPE </b></h5>
+                                    <img src="star img.png" height="100px">
+                                    <h6><b>5</b></h6>
+                                </span>
+                                <h3><b>₹3500</b></h3>
+                                <p class="card-text">Delivery by: Thur February 17 2022</p>
+                            </div>
+
+                    </td>
+                </tr>
+            </div>
+        </table>
+    </section>
+    <script>
+
+
+
+        const delivery = document.getElementById("delivery");
+        const alpha = document.getElementById("alphabet");
+        const price = document.getElementById("price");
+
+        const ranks = document.getElementsByClassName("ranks")
+    </script>
+
+</body>
+
+</html>
